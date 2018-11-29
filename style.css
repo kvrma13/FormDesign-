@@ -1,0 +1,53 @@
+body{
+background: rgb(80 ,152, 207);
+color:white;
+}
+
+form{
+display: flex;
+justify-content: center;
+
+}
+
+input{
+	padding:8px;
+}
+
+
+input: focus, textarea:focus{
+border:2px solid rgb(34,85,134);
+}
+
+
+.g1{
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.g2{
+
+
+}
+
+
+
+.g3{
+
+
+
+}
+
+
+
+
+
