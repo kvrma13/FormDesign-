@@ -1,52 +1,56 @@
+html {box-sizing:border-box;}
+*,* :after, *:before {box-sizing:inherit;}
+
 body{
-background: rgb(80 ,152, 207);
+font-size: 10px;	
+font-family: sans-serif; 
 color:white;
 }
 
 form{
+background: rgb(80 ,152, 207);
 display: flex;
-justify-content: center;
+margin: auto;
+width:700px;
+justify-content: space-between;
+padding: 10px;
 
 }
+
+input, select, textarea{
+background: transparent;
+border: 2px solid white;
+outline: none;
+width: 190px;
+color: white;
+
+}
+
+.group{
+	display: flex;
+	flex-direction: column;
+}
+
+
 
 input{
 	padding:8px;
 }
 
 
-input: focus, textarea:focus{
+input:focus, textarea:focus, select:focus{
 border:2px solid rgb(34,85,134);
 }
-
-
-.g1{
-
-
-
-
+label{
+	margin-bottom: 5px;
+	text-transform: uppercase;
 }
 
 
+textarea{
 
-
-
-
-
-
-
-.g2{
-
-
+height: 80px;
 }
-
-
-
-.g3{
-
-
-
-}
-
 
 
 
